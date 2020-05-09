@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 25%;
+    margin: 0 auto;
+}
+label{
+    display: inline-block;
+    width: 25%;
+}
+.form_group{
+    margin: 10px 0;
+}
+.form_group .form_input{
+    display: inline-block;
+    width: 73%;
+}
+.form_group .form_input input{
+    width: 100%;
+}
+.form_group .form_input select{
+    width: 100%;
+    cursor: pointer;
+}
+.form_group:last-child{
+    text-align: right;
+}
+.button{
+    background-color: cornflowerblue;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/*input::placeholder { 
+    text-align: center;
+}*/
+
+/*index.css*/
+.query_options{
+    padding: 0;
+    margin: 10px 0;
+}
+.query_options li{
+    margin: 5px 0;
+}
+.query_options li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* CoursesList.css */
+
+.courses_details th{
+    text-align: left;
+    
+}
+.courses_details th, .courses_details td{
+    padding: 5px 10px;
+    padding-left: 0;
+    width: 50%;
+}
+.edit{
+    padding-right: 5px;
+    color: cornflowerblue;
+}
+.edit:active{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+.delete{
+    padding-left: 5px;
+    color: cornflowerblue;
+}
+.delete:active{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+/* studentGrade.css */
+.buttons{
+    margin: 10px 0;
+}
+.buttons a{
+    text-decoration: none;
+}
